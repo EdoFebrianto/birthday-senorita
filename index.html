@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, Senorita ❤️</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #190b20, #4b183b, #20132f);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-x: hidden;
+  padding: 24px 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 460px;
+  padding: 32px 22px;
+  border: 1px solid #ffffff30;
+  border-radius: 25px;
+  background: #ffffff0c;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 40px #ff64b31a;
+  z-index: 2;
+  animation: muncul 1.2s ease;
+}
+
+h1 {
+  color: #ffb6d5;
+  font-size: clamp(28px, 7vw, 38px);
+  margin-bottom: 14px;
+  text-shadow: 0 0 20px #ff69b4;
+}
+
+.subtitle {
+  color: #f4d9e8;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.gift {
+  font-size: 75px;
+  display: inline-block;
+  margin: 10px 0 25px;
+  animation: goyang 2s infinite ease-in-out;
+}
+
+button {
+  border: none;
+  padding: 15px 28px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #ff80b5, #ff4f91);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 22px #ff4f9150;
+  transition: .3s;
+}
+
+button:hover {
+  transform: scale(1.04);
+}
+
+button:active {
+  transform: scale(.96);
+}
+
+#surat {
+  display: none;
+  margin-top: 28px;
+  text-align: left;
+  line-height: 1.9;
+  color: #ffe6f1;
+  animation: muncul 1s ease;
+}
+
+#surat h2 {
+  text-align: center;
+  color: #ffb6d5;
+  margin-bottom: 18px;
+}
+
+#surat p {
+  margin-bottom: 14px;
+}
+
+.penutup {
+  text-align: center;
+  color: #ffb6d5;
+  font-weight: bold;
+}
+
+.tombol-kembali {
+  display: none;
+  margin: 20px auto 0;
+  padding: 12px 20px;
+  background: transparent;
+  border: 1px solid #ffb6d5;
+  color: #ffb6d5;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.footer {
+  font-size: 12px;
+  color: #c8adc4;
+  margin-top: 25px;
+}
+
+.hati {
+  position: fixed;
+  bottom: -40px;
+  z-index: 1;
+  pointer-events: none;
+  animation: terbang linear forwards;
+}
+
+.bintang {
+  position: fixed;
+  color: #ffd9ed;
+  animation: kelap 2s infinite alternate;
+  pointer-events: none;
+}
+
+@keyframes terbang {
+  to {
+    transform: translateY(-115vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes kelap {
+  from {
+    opacity: .2;
+    transform: scale(.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.3);
+  }
+}
+
+@keyframes goyang {
+  0%, 100% {
+    transform: rotate(-7deg) translateY(0);
+  }
+  50% {
+    transform: rotate(7deg) translateY(-10px);
+  }
+}
+
+@keyframes muncul {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    padding: 25px 16px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div style="font-size:30px">✨ 💗 ✨</div>
+
+  <h1>Happy Sweet 16,<br>Senorita ❤️</h1>
+
+  <p class="subtitle">
+    Hari ini bukan hari biasa.<br>
+    Hari ini adalah hari lahir seseorang<br>
+    yang kehadirannya begitu berarti bagiku.
+  </p>
+
+  <div class="gift">🎁</div>
+
+  <br>
+
+  <button id="tombol" onclick="bukaSurat()">
+    Buka Hadiahmu 💌
+  </button>
+
+  <div id="surat">
+    <h2>Untuk Senoritaku ❤️</h2>
+
+    <p>Happy Sweet Seventeen—eh, Sweet Sixteen! WKWKWK ❤️🎂</p>
+
+    <p>
+     Hari ini, seseorang yang spesial buat aku bertambah usia. Semoga di umur yang baru ini, kamu selalu diberi kesehatan, kebahagiaan, dan banyak alasan untuk tersenyum.
+
+    <p>
+      Aku berharap kamu bisa tumbuh menjadi versi dirimu yang semakin baik, tanpa harus kehilangan sisi dirimu yang selama ini aku kenal dan sayangi. Semoga mimpi-mimpimu satu per satu menemukan jalannya, dan semoga hal-hal baik selalu punya cara untuk datang kepadamu.
+    </p>
+
+    <p>
+      Aku tahu perjalananmu masih panjang. Bakal ada hari yang menyenangkan, ada juga hari yang mungkin bikin kamu capek dan ingin menyerah. Kalau suatu saat kamu merasa dunia sedang nggak ramah, jangan lupa kalau kamu nggak harus selalu terlihat kuat. Kamu juga boleh istirahat, boleh sedih, dan boleh pelan-pelan selama kamu tetap berusaha.
+    </p>
+
+    <p>
+      Terima kasih sudah hadir dalam hidupku, Senorita. Terima kasih sudah menjadi bagian dari cerita yang sedang kita jalani. Aku mungkin belum menjadi seseorang yang sempurna, tetapi aku ingin terus belajar menjadi lebih baik, bukan cuma untuk diriku sendiri, tetapi juga dalam caraku menyayangi dan menghargaimu.
+    </p>
+
+    <p>
+      Di umurmu yang ke-16 ini, aku nggak berharap kamu menjadi sempurna. Aku cuma berharap kamu bahagia, sehat, tetap jadi dirimu sendiri, dan nggak pernah kehilangan alasan untuk mengejar apa yang kamu impikan.
+    </p>
+
+    <p class="penutup">
+      Selamat ulang tahun, Senoritaku. ❤️<br>
+      Semoga hari ini menjadi salah satu kenangan indah yang bisa kamu ingat nanti. Nikmati hari spesialmu, ya, sayangku.<br>
+      With love, untuk Senorita-ku. 💌
+    </p>
+  </div>
+
+  <button
+    id="tombolKembali"
+    class="tombol-kembali"
+    onclick="kembaliKeUtama()">
+    ↩ Kembali ke Halaman Utama
+  </button>
+
+  <div class="footer">
+    Dibuat dengan sepenuh hati, khusus untukmu ❤️
+  </div>
+
+</div>
+
+<script>
+// Animasi hati yang melayang
+function buatHati() {
+  const hati = document.createElement("div");
+  hati.className = "hati";
+
+  const simbol = ["❤️", "💗", "💕", "💖", "✨"];
+  hati.innerHTML =
+    simbol[Math.floor(Math.random() * simbol.length)];
+
+  hati.style.left = Math.random() * 100 + "vw";
+  hati.style.fontSize = (14 + Math.random() * 20) + "px";
+  hati.style.animationDuration = (5 + Math.random() * 5) + "s";
+
+  document.body.appendChild(hati);
+
+  setTimeout(() => hati.remove(), 10000);
+}
+
+setInterval(buatHati, 500);
+
+// Bintang kecil di latar belakang
+for (let i = 0; i < 24; i++) {
+  const bintang = document.createElement("div");
+
+  bintang.className = "bintang";
+  bintang.innerHTML = "✦";
+  bintang.style.left = Math.random() * 100 + "vw";
+  bintang.style.top = Math.random() * 100 + "vh";
+  bintang.style.fontSize = (8 + Math.random() * 12) + "px";
+  bintang.style.animationDelay = Math.random() * 2 + "s";
+
+  document.body.appendChild(bintang);
+}
+
+// Membuka surat ucapan
+function bukaSurat() {
+  document.getElementById("surat").style.display = "block";
+  document.getElementById("tombol").style.display = "none";
+  document.getElementById("tombolKembali").style.display = "block";
+
+  // Efek konfeti
+  for (let i = 0; i < 55; i++) {
+    const konfeti = document.createElement("div");
+
+    konfeti.className = "hati";
+    konfeti.innerHTML = ["💖", "🎉", "✨", "💕"][
+      Math.floor(Math.random() * 4)
+    ];
+
+    konfeti.style.left = Math.random() * 100 + "vw";
+    konfeti.style.bottom = (Math.random() * 30) + "vh";
+    konfeti.style.fontSize = (15 + Math.random() * 18) + "px";
+    konfeti.style.animationDuration = (2 + Math.random() * 3) + "s";
+
+    document.body.appendChild(konfeti);
+
+    setTimeout(() => konfeti.remove(), 5000);
+  }
+
+  // Arahkan tampilan ke surat
+  setTimeout(() => {
+    document.getElementById("surat").scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  }, 100);
+}
+
+// Kembali ke halaman utama
+function kembaliKeUtama() {
+  document.getElementById("surat").style.display = "none";
+  document.getElementById("tombol").style.display = "inline-block";
+  document.getElementById("tombolKembali").style.display = "none";
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+</script>
+
+</body>
+</html>
